@@ -1,0 +1,41 @@
+{
+    "name": "aedart/athenaeum-testing",
+    "description": "Testing utilities built on top of Orchestra Testbench and Codeception",
+    "keywords": ["Athenaeum", "Testing"],
+    "homepage": "https://aedart.github.io/athenaeum/",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alin Eugen Deac",
+            "email": "aedart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "aedart/athenaeum-container": "6.x-dev",
+        "aedart/athenaeum-contracts": "6.x-dev",
+        "codeception/codeception": "5.0.0-alpha1",
+        "codeception/module-asserts": "*@dev",
+        "fakerphp/faker": "^v1.17.0",
+        "mockery/mockery": "1.5.*",
+        "orchestra/testbench": "^v7.0.0",
+        "orchestra/testbench-dusk": "^v7.0.0",
+        "phpunit/phpunit": "dev-master as 9.5.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aedart\\Testing\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
